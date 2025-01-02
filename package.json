@@ -1,0 +1,33 @@
+{
+  "name": "schedule",
+  "version": "1.0.0",
+  "description": "get data from excel and link with google calender.",
+  "main": "nodemon index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dcpatel42/schedule.git"
+  },
+  "keywords": [
+    "schedule",
+    "calender"
+  ],
+  "author": "Dhaval",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dcpatel42/schedule/issues"
+  },
+  "homepage": "https://github.com/dcpatel42/schedule#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "mysql": "^2.18.1",
+    "nodemon": "^3.1.9",
+    "read-excel-file": "^5.8.6"
+  },
+  "devDependencies": {
+    "moment": "^2.30.1"
+  }
+}
